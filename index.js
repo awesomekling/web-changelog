@@ -69,7 +69,7 @@
 
     let ongoingFetchAbortController = null;
 
-    let repoToView = "serenity";
+    let repoToView = "ladybird";
 
     let categoryCollapseElements = [];
 
@@ -598,7 +598,7 @@
 
             const commits = (
                 await paginate(
-                    `https://api.github.com/repos/SerenityOS/${repoToView}/commits`,
+                    `https://api.github.com/repos/LadybirdBrowser/${repoToView}/commits`,
                     parameters
                 )
             ).flat();
